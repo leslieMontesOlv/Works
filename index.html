@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabla Periodica</title>
+    <link rel="stylesheet" href="tabla.css">
+</head>
+<body>
+    <header>
+        <img id="logo" src="imagenes/logo.jpg">
+        <div id="title">
+            <h1>Tabla Periodica</h1>
+        </div>
+        <hr>
+        <div class="topnav" id="myTopnav">
+            <a href="index.html" class="active">Inicio</a>
+            <a href="TablaPeriodica.html">Tabla periodica</a>
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                <i class="fa fa-bars"></i>
+            </a>
+        </div>
+        <script>
+            function myFunction() {
+                var x = document.getElementById("myTopnav");
+                if (x.className === "topnav") {
+                    x.className += " responsive";
+                } else {
+                    x.className = "topnav";
+                } 
+            }
+        </script>
+    </header>
+    <h2>¿Que es?</h2>
+    <p>La tabla periódica de los elementos es una disposición de los elementos químicos en forma de tabla, 
+    ordenados por su número atómico, por su configuración de electrones y sus propiedades químicas.</p>
+    <h2>Caracteristicas</h2>
+    <p>La tabla periódica está compuesta por 18 grupos de elementos organizados en columnas verticales, 
+    numerados del 1 al 18 de izquierda a derecha, comenzando por los metales alcalinos y terminando con 
+    los gases nobles.</p>
+    <h2>Estructura</h2>
+    <p>Actualmente, la tabla periódica se compone de 118 elementos distribuidos en 7 filas horizontales 
+    llamadas periodos y 18 columnas verticales, conocidas como grupos.</p>
+</body>
+</html>

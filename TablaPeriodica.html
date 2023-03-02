@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabla</title>
+    <link rel="stylesheet" href="tabla.css">
+</head>
+<body>
+    <header>
+        <div class="topnav" id="myTopnav">
+            <a><img id="logo" src="imagenes/logo.jpg"></a>
+            <a href="tabla.html" class="active">Tabla periodica</a>
+            <a href="TablaPeriodica.html">Inicio</a>
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                <i class="fa fa-bars"></i>
+            </a>
+        </div>
+        <script>
+            function myFunction() {
+                var x = document.getElementById("myTopnav");
+                if (x.className === "topnav") {
+                    x.className += " responsive";
+                } else {
+                    x.className = "topnav";
+                } 
+            }
+        </script>
+    </header>
+    <img id="tab" src="imagenes/tabla.jpg">
+    <div id="list">
+        <ul>
+            <li><a style="color: rgb(253, 68, 11);" href="Alcalinos.html">Metales alcalinos</a></li>
+            <li><a style="color: rgb(253, 156, 11);" href="Alcalinoterreos.html">Alcalinoterreos</a></li>
+            <li><a style="color: rgb(255, 251, 1);" href="Metales.html">Metales</li><a></li>
+            <li><a style="color: rgb(160, 253, 11);" href="Transicion.html">Metales de transicion</a></li>
+            <li><a style="color: rgb(2, 230, 173);" href="Lantanidos.html">Lantanidos</a></li>
+            <li><a style="color: rgb(9, 185, 39);" href="Metaloides.html">Metaloides</a></li>
+            <li><a style="color: rgb(98, 41, 255);" href="No_metales.html">No metales</a></li>
+            <li><a style="color: rgb(255, 45, 132);" href="Halogenos.html">Halogenos</a></li>
+            <li><a style="color: rgb(45, 248, 255);" href="gases_nobles.html">Gases nobles</a></li>
+            <li><a style="color: rgb(41, 221, 71);" href="Actinidos.html">Actinidos</a></li>
+        </ul>
+    </div>
+</body>
+</html>
